@@ -64,14 +64,15 @@ a:hover {
   color: #2f89b3;
   font-weight: bold;
   margin-left: 10px;
+  line-height: 88px;
 }
 
 .weather-icon {
-  font-size: 44px;
-  margin-top: 22px;
+  width: 88px;
+  height: 88px;
 }
 .weather-app-value {
-  margin-top: 16px;
+  margin-top: 6px;
   font-size: 28px;
 }
 .search-form-button {
