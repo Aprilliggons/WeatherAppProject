@@ -101,6 +101,9 @@ a:hover {
 .weather-forecast {
   font-weight: bold;
   line-height: 2;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
 }
 .weather-forecast-date {
   font-size: 20px;
@@ -111,5 +114,7 @@ a:hover {
   line-height: 2;
 }
 .weather-forecast-icon {
-  font-size: 22px;
+  font-size: 16px;
+  display: block;
+  margin: 0 auto;
 }
