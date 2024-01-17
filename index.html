@@ -44,24 +44,14 @@
             <span class="weather-app-value">&deg;F</span>
           </div>
         </div>
-        <div class="weather-forecast">
-          <div class="row">
-            <div class="col-2">
-              <div class="weather-forecast-date">
-                Wed
-                <br />
-                <img
-                  src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/rain-day.png"
-                  alt=""
-                  width="36"
-                />
-                <br />
-                <div class="weather-forecast-temperature">
-                  <span class="weather-forecast-temperature-max">18&deg;</span>
-                  <span class="weather-forcast-temperature-min">12&deg;</span>
-                </div>
-              </div>
-            </div>
+        <div class="column">
+          <div class="row"></div>
+          <div class="weather-forecast" id="forecast">
+            <div class="weather-forecast-date"></div>
+            <div class="weather-forecast-icon"></div>
+            <span class="weather-forecast-temperature-max">
+              <span class="weather-forecast-temperature-min"></span>
+            </span>
           </div>
         </div>
         <footer>
@@ -78,8 +68,8 @@
             >Netlify</a
           >
         </footer>
+        <script src="src/index.js"></script>
       </main>
     </div>
-    <script src="src/index.js"></script>
   </body>
 </html>
